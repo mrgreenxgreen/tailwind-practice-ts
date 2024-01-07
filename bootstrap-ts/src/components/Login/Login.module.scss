@@ -1,0 +1,11 @@
+
+.container{
+  @apply text-blue-500 h-40 w-1/4 border-2 outline-red-950 outline-1 bg-emerald-500 rounded-3xl p-5 flex items-center
+          justify-center flex-col;
+    .form{
+      @apply flex flex-col gap-4;
+      input{
+        @apply rounded-3xl;
+      }
+    }
+}
