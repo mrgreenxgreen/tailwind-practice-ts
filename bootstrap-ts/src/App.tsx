@@ -1,14 +1,15 @@
-import Login from "./components/Login/Login.tsx";
+
 
 import './App.css'
+import LoginPage from "./pages/LoginPage/LoginPage.tsx";
 
 
 function App() {
 
   return (
-      <>
-        <Login/>
-      </>
+      <body>
+        <LoginPage/>
+      </body>
   )
 }
 
