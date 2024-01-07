@@ -1,0 +1,18 @@
+
+.container{
+  //tailwindCSS
+  @apply text-blue-500 h-fit  w-lvw max-w-screen-lg  bg-emerald-500/[0.2] backdrop-blur-sm rounded-2xl p-5 flex items-center
+          justify-center flex-col;
+  //vanilla
+  border:2px solid rgb(255,255,255,0.1);
+
+    .form{
+      @apply flex flex-col gap-4 w-10/12 sm:w-96;
+      input{
+        @apply rounded-2xl p-3 w-full;
+      }
+      .loginButton{
+        @apply bg-emerald-500 rounded-2xl w-32 m-auto text-white p-2;
+      }
+    }
+}

@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import LoginPage from "./pages/LoginPage/LoginPage.tsx";
+import LoginPage from "./view/pages/LoginPage/LoginPage.tsx";
 
 
 function App() {

@@ -13,7 +13,7 @@ export default function Login():JSX.Element{
                     <input type="text" name=""/>
                     <input type="password"  name="" />
 
-                    <button>Login</button>
+                    <button className={LoginCSS.loginButton}>Login</button>
                 </form>
             </div>
         </>

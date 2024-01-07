@@ -9,7 +9,7 @@ const LoginPage = ()=>{
         <>
 
             <Main>
-                meow
+
                 <Login/>
             </Main>
         </>
