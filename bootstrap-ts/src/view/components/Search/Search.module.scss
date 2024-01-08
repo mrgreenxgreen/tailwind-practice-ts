@@ -1,0 +1,10 @@
+
+
+
+.design{
+  @apply p-2 border-2 border-amber-800 w-fit hidden sm:block;
+
+  input{
+    @apply p-2 border-2 rounded-2xl placeholder-gray-500 text-cyan-700;
+  }
+}

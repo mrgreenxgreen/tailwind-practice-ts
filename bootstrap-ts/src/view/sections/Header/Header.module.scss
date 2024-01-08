@@ -1,0 +1,10 @@
+
+
+
+.Container{
+  @apply w-screen bg-emerald-500 flex items-center flex-row justify-between p-2 text-neutral-200 uppercase shadow-lime-200 shadow-2xl;
+
+  .Settings{
+    @apply flex items-center justify-center gap-2 ;
+  }
+}

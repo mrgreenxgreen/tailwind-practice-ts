@@ -1,0 +1,8 @@
+
+.active{
+  color:red;
+}
+
+.design{
+  @apply text-transparent bg-gradient-to-b from-cyan-100  to-emerald-400 bg-clip-text font-bold text-5xl sm:text-8xl m-5;
+}

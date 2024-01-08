@@ -2,7 +2,7 @@
 .container{
   //tailwindCSS
   @apply text-blue-500 h-fit  w-lvw max-w-screen-lg  bg-emerald-500/[0.2] backdrop-blur-sm rounded-2xl p-5 flex items-center
-          justify-center flex-col;
+          justify-center flex-col text-center;
   //vanilla
   border:2px solid rgb(255,255,255,0.1);
 
@@ -12,7 +12,7 @@
         @apply rounded-2xl p-3 w-full;
       }
       .loginButton{
-        @apply bg-emerald-500 rounded-2xl w-32 m-auto text-white p-2;
+        @apply bg-emerald-500 rounded-2xl w-32 m-auto text-white p-2 pt-1 text-2xl;
       }
     }
 }

@@ -1,6 +1,5 @@
 
 
 .container{
-  @apply  h-screen  flex justify-center pt-52;
-  background:linear-gradient(90deg, blue, red);
+  @apply  h-screen  flex justify-center items-center  bg-gradient-to-tl from-blue-900 to-cyan-600;
 }
