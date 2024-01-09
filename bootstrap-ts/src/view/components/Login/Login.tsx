@@ -2,15 +2,20 @@ import  {JSX} from "react";
 
 import LoginCSS from "./Login.module.scss";
 import BrandName from "../BrandName/BrandName.tsx";
+import { useNavigate} from "react-router-dom";
 
 
 export default function Login():JSX.Element{
 const Active = false;
 const Size = "5";
-function handleLogin(event){
-    event.preventDefault();
-     setTimeout(
-        ()=>{console.log("hello")}, 2000
+const navigate = useNavigate()
+function handleLogin(e){
+    e.preventDefault()
+
+     setTimeout(()=>{
+             navigate("/")
+     }
+         ,2000
     )
     console.log("naclick")
 }
