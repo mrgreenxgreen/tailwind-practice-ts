@@ -1,0 +1,27 @@
+.p1{
+    padding:10px;
+}
+.m1{
+    margin:10px;
+}
+.b1{
+  border-radius:25px;
+}
+
+.container{
+    @extend .p1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 8px 2px #8888;
+
+
+    .search{
+        @apply flex items-center;
+    }
+    button{
+      @extend .p1,.m1,.b1;
+     padding-left:2em;
+      padding-right:2em;
+    }
+}
